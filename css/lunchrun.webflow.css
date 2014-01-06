@@ -223,8 +223,8 @@ p {
   text-shadow: none;
 }
 .icon-title {
-  margin-top: 22px;
-  margin-bottom: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: Bitter, serif;
   color: #f50a9b;
   font-size: 17px;
@@ -359,6 +359,7 @@ p {
 }
 .feature_des {
   margin-bottom: -9px;
+  padding-top: 0px;
   padding-right: 8px;
   padding-bottom: 17px;
   font-family: Bitter, serif;
@@ -369,10 +370,12 @@ p {
 .submit {
   background-color: #f70753;
   color: white;
+  text-align: left;
 }
 .sign-up-w-location {
   margin-top: 25px;
   padding-top: 0px;
+  text-align: center;
 }
 .back-to-top {
   position: relative;
@@ -394,7 +397,7 @@ p {
 .back-to-top-link {
   position: fixed;
   left: 85%;
-  top: 843px;
+  top: 887px;
   width: 68px;
   height: 68px;
 }
@@ -403,6 +406,9 @@ p {
   padding-bottom: 0px;
   background-color: #ff005d;
   color: #f7f0f3;
+}
+.left_align {
+  text-align: left;
 }
 @media (max-width: 991px) {
   p {
@@ -459,7 +465,7 @@ p {
   .back-to-top-link {
     position: fixed;
     left: 89%;
-    top: 854px;
+    top: 884px;
     width: 68px;
     height: 68px;
   }
@@ -533,13 +539,13 @@ p {
     margin-bottom: -41px;
   }
   .back-to-top {
-    position: fixed;
-    left: 85%;
-    top: 805px;
+    position: relative;
+    left: 0%;
+    top: 0px;
   }
   .back-to-top-link {
     left: 85%;
-    top: 806px;
+    top: 854px;
     width: 68px;
     height: 68px;
   }
@@ -603,7 +609,7 @@ p {
   }
   .back-to-top-link {
     left: 75%;
-    top: 809px;
+    top: 849px;
     width: 68px;
     height: 68px;
   }
