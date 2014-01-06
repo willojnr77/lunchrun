@@ -223,7 +223,7 @@ p {
   text-shadow: none;
 }
 .icon-title {
-  margin-top: 0px;
+  margin-top: 11px;
   margin-bottom: 0px;
   font-family: Bitter, serif;
   color: #f50a9b;
@@ -358,6 +358,7 @@ p {
   margin-bottom: -64px;
 }
 .feature_des {
+  margin-top: 5px;
   margin-bottom: -9px;
   padding-top: 0px;
   padding-right: 8px;
